@@ -1,0 +1,211 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="6dp">
+
+        <RelativeLayout
+            android:layout_width="348dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="6dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:paddingTop="0dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="17dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:layout_marginTop="28dp">
+
+                <TextView
+                    android:id="@+id/days"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:drawableLeft="@drawable/day"
+                    android:drawablePadding="10dp"
+                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15dp"
+                    android:layout_marginTop="20dp"/>
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/days"
+                    android:drawableLeft="@drawable/time"
+                    android:drawablePadding="10dp"
+                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15dp"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/food"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="68dp"
+                android:orientation="horizontal"
+                android:padding="1dp">
+
+                <TextView
+                    android:id="@+id/lunch"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:drawableLeft="@drawable/lunch"
+                    android:drawablePadding="10dp"
+                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15dp"
+                    android:layout_marginTop="26dp"/>
+
+                <TextView
+                    android:id="@+id/coffee"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/days"
+                    android:drawableLeft="@drawable/coffee"
+                    android:drawablePadding="10dp"
+                    android:paddingBottom="@dimen/songs_count_padding_bottom"
+                    android:paddingLeft="@dimen/album_title_padding"
+                    android:paddingRight="@dimen/album_title_padding"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="15dp"
+                    android:layout_marginTop="26dp"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/uniform"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/food"
+                android:drawableLeft="@drawable/uniform"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:textColor="@color/colorPrimaryDark"
+                android:drawablePadding="10dp"
+                android:textSize="15dp"
+                android:layout_marginTop="22dp"/>
+            <TextView
+                android:id="@+id/phone"
+                android:clickable="true"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/uniform"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/phone"
+                android:layout_marginTop="150dp"
+                android:layout_marginLeft="12dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold|italic"
+                android:autoLink="all"
+                />
+
+
+            <TextView
+                android:id="@+id/internet"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/uniform"
+                android:drawableLeft="@drawable/internet"
+                android:drawablePadding="10dp"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:layout_marginTop="24dp"
+                android:textStyle="bold|italic"
+                android:autoLink="all"
+                />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/internet"
+                android:drawableLeft="@drawable/address"
+                android:drawablePadding="10dp"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp"
+                android:layout_marginTop="26dp"/>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="275dp"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+            <Button
+                android:id="@+id/detail"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/button"
+                android:drawableLeft="@drawable/placeholder"
+                android:drawablePadding="4dp"
+                android:text="Get Direction"
+                android:textColor="@color/intern_seeker"
+                android:textSize="12dp"
+                android:layout_marginTop="35dp" />
+                <ImageView
+                    android:id="@+id/star"
+                    android:layout_toRightOf="@id/detail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/star_whit"
+                    android:layout_marginTop="38dp"
+                    android:layout_marginLeft="80dp"/>
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <!--  <ImageView
+                android:id="@+id/overflow"
+                android:layout_width="@dimen/ic_album_overflow_width"
+                android:layout_height="@dimen/ic_album_overflow_height"
+                android:layout_alignParentRight="true"
+
+                android:layout_marginTop="@dimen/ic_album_overflow_margin_top"
+                android:scaleType="centerCrop"
+                android:src="@drawable/menu" />-->
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

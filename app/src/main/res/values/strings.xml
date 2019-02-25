@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">"Intern Seeker"</string>
+    <string name="drawer_open">Open Drawer</string>
+    <string name="drawer_close">Close Drawer</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_about">About Intern Seeker</string>
+
+    <!-- intro slider-->
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title"> Daily Exercise</string>
+    <string name="slide_2_title">Diet Plan</string>
+    <string name="slide_3_title">Physics Exercise</string>
+    <string name="slide_1_desc">What we have to Learn To Do </string>
+
+
+    <string name="slide_2_desc">The expect in anything was once an unpaid intern</string>
+
+
+    <string name="slide_3_desc">Life is an unpaid internship</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string-array name="companyList">
+
+        <item>Signal Base Myanmar</item>
+        <item>Marter Solution</item>
+        <item>Galaxy Software</item>
+        <item>BIT Manger</item>
+        <item>360ed</item>
+        <item>Orient</item>
+        <item>Software Myanmar</item>
+        <item>Acroquest Myanmar Technology</item>
+        <item>U.M.S Queen</item>
+        <item>Global Innovation Consulting(GIC)</item>
+        <item>T Work System</item>
+        <item>ICT Star Group Myanmar</item>
+        <item>Nex4</item>
+        <item>Bits Manager</item>
+        <item>HQS Co.,Ltd</item>
+        <item>View Research</item>
+        <item>Skynet</item>
+        <item>Ayeyarwaddy Informatin Technology Development</item>
+        <item>Myanmar DCR</item>
+        <item>Realistic Infotech Group</item>
+        <item>Tosco</item>
+        <item>NTT Data Myanmar</item>
+        <item>Mspiral Company</item>
+        <item>Thazin FM</item>
+        <item>Ayeyarwady Bank</item>
+        <item>Ahtar Oo Co.,Ltd</item>
+        <item>Asia Brightway IT Co.,Ltd</item>
+    </string-array>
+
+
+</resources>

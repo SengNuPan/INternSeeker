@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6cab25</color>
+    <color name="colorPrimaryDark">#2d7409</color>
+    <color name="colorAccent">#6cab25</color>
+    <color name="navigationBarColor">#2d7409</color>
+    <color name="windowBackground">#f9f8f7</color>
+    <color name="intern_seeker">#ffc95e</color>
+    <color name="nav_textcolor">#64931f</color>
+    <color name="card_bg">#e2e2e0</color>
+    <color name="white">#ede9e9</color>
+    <color name="textcolor">#d4971b</color>
+    <!-- <color name="colorBackground">#fcfcfc</color>-->
+    <color name="album_title">#4c4c4c</color>
+    <color name="viewBg">#f1f5f8</color>
+
+    <color name="screen1">#fff1a0</color>
+    <color name="screen2">#848481</color>
+    <color name="screen3">#afa019</color>
+
+
+
+
+
+
+    <color name="dot_inactive_screen1">#ffa000</color>
+    <color name="dot_inactive_screen2">#008c57</color>
+    <color name="dot_inactive_screen3">#0e1e49</color>
+
+    dots active colors
+    <color name="dot_active_screen1">#f9c772</color>
+    <color name="dot_active_screen2">#74f7c5</color>
+    <color name="dot_active_screen3">#3a67e0</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_active_screen1</item>
+        <item>@color/dot_active_screen2</item>
+        <item>@color/dot_active_screen3</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_inactive_screen1</item>
+        <item>@color/dot_inactive_screen2</item>
+        <item>@color/dot_inactive_screen3</item>
+    </array>
+
+</resources>

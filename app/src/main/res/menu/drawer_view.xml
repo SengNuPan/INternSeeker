@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#faf6f6">
+
+    <group android:checkableBehavior="single"
+        android:background="#faf6f6">
+
+
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/like"
+            android:title="Favorite"
+
+            />
+
+        <item
+            android:id="@+id/invite"
+            android:icon="@drawable/message"
+            android:title="Invite Friends"
+            />
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/share"
+            android:title="Sharing"/>
+
+
+        <item
+            android:id="@+id/setting"
+            android:icon="@drawable/setting"
+            android:title="Setting"
+            />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback"
+            />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About Intern Seeker"
+            />
+
+
+
+    </group>
+
+
+</menu>

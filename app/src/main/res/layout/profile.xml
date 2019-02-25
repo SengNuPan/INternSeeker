@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    >
+   <EditText
+       android:id="@+id/username"
+       android:layout_width="fill_parent"
+       android:layout_height="90dp"
+       android:hint="Your Name"
+       android:layout_gravity="center_horizontal"
+       android:gravity="center_horizontal|center_vertical"
+       android:textColor="@color/intern_seeker"
+       android:textSize="22sp"
+       android:padding="20dp"/>
+    <RadioGroup
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="19dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/white"
+        >
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/female"
+            android:text="Female"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp"/>
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/male"
+            android:text="Male"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:textSize="10sp"/>
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+
+        <Button
+            android:layout_width="100dp"
+            android:id="@+id/change"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:text="Cancel"
+            android:textColor="@color/intern_seeker"
+            android:textStyle="bold"
+            android:clickable="true"/>
+        <Button
+            android:layout_width="100dp"
+            android:id="@+id/set"
+            android:layout_height="50dp"
+            android:background="@drawable/button"
+            android:text="Set"
+            android:textColor="@color/intern_seeker"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+           android:clickable="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>

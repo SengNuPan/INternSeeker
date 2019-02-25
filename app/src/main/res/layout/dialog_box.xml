@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/windowBackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Feeling about the support you received?"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="17dp"/>
+    <Button
+        android:id="@+id/great"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="It was Great!"
+        android:drawableLeft="@drawable/next"
+        android:drawableRight="@drawable/great"
+        android:background="@drawable/button"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/goodjob"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="It did Good Job!"
+        android:drawableLeft="@drawable/next"
+        android:drawableRight="@drawable/smile"
+        android:background="@drawable/button"
+        android:textColor="@color/colorAccent"
+        />
+    <Button
+        android:id="@+id/disappointed"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="I am not satisfy!"
+        android:drawableLeft="@drawable/next"
+        android:drawableRight="@drawable/sad"
+        android:background="@drawable/button"
+        android:textColor="@color/colorAccent"
+        />
+    <!-- <Button
+
+         android:layout_width="wrap_content"
+         android:layout_height="49dp"
+         android:layout_marginTop="10dp"
+       android:textSize="10dp"
+         android:gravity="center"
+         android:layout_marginLeft="50dp"
+         android:text="Do u still have additional feedback?"
+         android:textColor="@color/windowBackground"
+         android:drawableLeft="@drawable/support"
+         android:background="@drawable/button"
+         />
+     <EditText
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"
+         android:singleLine="false"
+         android:hint="What's on your mind.."
+        android:textColor="@color/windowBackground"
+         android:layout_marginTop="20dp"
+         />-->
+
+</LinearLayout>

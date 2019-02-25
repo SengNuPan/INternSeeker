@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:background="@color/viewBg"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    >
+<ViewFlipper
+    android:layout_margin="2dp"
+    android:id="@+id/flipper"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+</ViewFlipper>
+
+   <RelativeLayout
+       android:layout_below="@id/flipper"
+       android:layout_width="fill_parent"
+       android:layout_height="55dp"
+      android:layout_marginBottom="10dp"
+       android:layout_marginTop="310dp"
+       >
+
+       <ImageView
+           android:id="@+id/overflow"
+           android:background="@null"
+           android:layout_width="50dp"
+           android:layout_height="30dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginBottom="15dp"
+
+           android:layout_marginLeft="293dp"
+           android:src="@drawable/love_white"
+           android:layout_marginTop="0dp"
+
+
+           />
+       <ImageView
+           android:id="@+id/react"
+           android:layout_width="30dp"
+           android:layout_height="30dp"
+           android:layout_marginBottom="18dp"
+           android:layout_marginRight="20dp"
+           android:layout_alignParentBottom="true"
+           android:layout_marginTop="0dp"
+           android:scaleType="centerCrop"
+
+           android:layout_marginLeft="20dp"
+           />
+
+
+
+   </RelativeLayout>
+
+
+    <!--<android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbars="vertical" />-->
+
+</FrameLayout>

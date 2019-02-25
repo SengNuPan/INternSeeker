@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+
+    <FrameLayout
+        android:id="@+id/container_body"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="38dp"
+            >
+            <LinearLayout
+                android:id="@+id/started"
+                android:layout_marginTop="100dp"
+                android:layout_width="150dp"
+                android:layout_height="78dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Search Company"
+                    android:textColor="@color/intern_seeker"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_marginTop="33dp"/>
+                <!--  <TextView
+
+                      android:layout_width="fill_parent"
+                      android:layout_height="60dp"
+                      android:background="@color/white"
+                      android:text="Have 29 companies"
+                      android:textColor="@color/colorPrimaryDark"
+                      android:textStyle="bold|italic"
+                      android:gravity="center"/>-->
+
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/companyname"
+            android:padding="19dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="105dp"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="38dp"
+            >
+            <LinearLayout
+                android:id="@+id/stories"
+                android:layout_marginTop="100dp"
+                android:layout_width="150dp"
+                android:layout_height="78dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:layout_marginLeft="180dp"
+                android:gravity="center_horizontal">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Companies"
+                    android:textColor="@color/intern_seeker"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_marginTop="33dp"/>
+                <!--  <TextView
+
+                      android:layout_width="fill_parent"
+                      android:layout_height="60dp"
+                      android:background="@color/white"
+                      android:text="Advantages and Disadvantages"
+                      android:textColor="@color/colorPrimaryDark"
+                      android:textStyle="bold|italic"
+                      android:gravity="center"/>-->
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/stories"
+            android:padding="19dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="218dp"
+            android:layout_marginTop="105dp"/>
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="20dp">
+            <LinearLayout
+android:id="@+id/cvform"
+                android:layout_marginTop="280dp"
+                android:layout_width="150dp"
+                android:layout_height="78dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical"
+                android:gravity="center_horizontal">
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CV Forms"
+                    android:textColor="@color/intern_seeker"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:layout_marginTop="33dp"/>
+                <!-- <TextView
+                      android:layout_width="fill_parent"
+                      android:layout_height="60dp"
+                      android:background="@color/white"
+                      android:text="Have Examples and Links"
+                      android:textColor="@color/colorPrimaryDark"
+                      android:textStyle="bold|italic"
+                      android:gravity="center"/>-->
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/cvform"
+            android:padding="19dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="262dp"/>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:id="@+id/activities"
+                android:layout_width="150dp"
+                android:layout_height="78dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="280dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="33dp"
+                    android:text="Activities"
+                    android:textColor="@color/intern_seeker"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+
+                <!-- <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="Momorable movements of companies"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textStyle="bold|italic" />-->
+            </LinearLayout>
+        </RelativeLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/activities"
+            android:padding="19dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="215dp"
+            android:layout_marginTop="262dp"/>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:padding="10dp">
+       <!-- <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Through ICT to a Better Life and Society"
+            android:textStyle="italic|bold"
+            android:textSize="19dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="80dp"
+            android:textColor="@color/colorPrimaryDark"
+            />-->
+    </RelativeLayout>
+
+    <!--<Button
+
+        android:id="@+id/started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="25dp"
+        android:text="Get Started"
+        android:background="@drawable/button"
+        android:textColor="#f4e88d" />-->
+
+</android.support.design.widget.CoordinatorLayout>
